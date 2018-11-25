@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Runoob</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+
+<link rel="stylesheet" type="text/css" href="css/accordion.css"><!-- 个人简介->手风琴 -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!-- //js -->
+<!--web-fonts-->
+<link href='https://fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+
+<!--//end-smooth-scrolling-->
+</head>
+<body>
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-3 header-left">
+					<img src="images/img1.png" alt=""/>
+				</div>
+				<div class="col-md-9 header-right">
+					
+					<h1>陈富坤</h1>
+					<h6>Nothing is given. Everything is earned. You work for what you have！</h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><b>工作岗位：</b></li>
+								<li>前端研发</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>入职时间：</b></li>
+								<li>2018-08-06</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>联系电话： </b></li>
+								<li>181-1516-6003&nbsp;&nbsp;</li>
+								<li><a href='tel:181-1516-6003'><span style="font-size: 15pt;"><abbr title="手机端点击，打电话给我！"> ☎ &nbsp;</abbr></span></a></li>
+								<li><a href='sms:181-1516-6003'><span style="font-size: 15pt;"><abbr title="手机端点击，发短信给我！"> ✉ &nbsp;</abbr></span></a></li>
+
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>邮箱地址： </b></li>
+								<li><a href="mailto:cheneyking23@gmail.com"> cheneyking23@gmail.com</a><a href="javascript:void(0);" class="btn" data-clipboard-text="cheneyking23@gmail.com" title="复制邮箱"><abbr title="点击复制邮箱！">&nbsp;<img height="30px" src="./images/copy.gif" alt="复制邮箱">&nbsp;</abbr></a>
+									<script src="./js/clipboard.min.js"></script>
+
+							    <script>
+							    var clipboard = new Clipboard('.btn');
+							    clipboard.on('success', function(e) {
+							        alert("邮箱复制成功！")
+							    });
+
+							    clipboard.on('error', function(e) {
+							        console.error(e);
+							    });
+							    </script>
+						</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>社区链接： </b></li>
+								<li>
+									<a href="https://aiyongbao.yuque.com/dashboard/docs" target="_blank"  rel="nofollow"><abbr title="爱用读书笔记和总结"><img height="30px" data-v-5ce25e66="" src="https://cdn.nlark.com/yuque/36/2018/png/98131/1532419093793-avatar/ca9f41fc-ad58-4acc-a797-9798ea2dc03f.png" alt="语雀" class="logo-img"></abbr></a>
+									<a href="https://github.com/king-hcj" target="_blank"  rel="nofollow">
+									<abbr title="个人GitHub地址,含部分项目源码">
+									<img src="images\logogh.png" alt="gitHub"/></abbr>
+	                                <!-- <svg xmlns="http://www.w3.org/2000/svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true">
+									<path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+									</path>
+									</svg> -->
+								</a>
+                                 <a href="https://segmentfault.com/u/king_hcj" target="_blank"  rel="nofollow"><abbr title="个人SegmentFault地址,含部分技术博文"><img src="images\logosf.png" alt="segmentfault"></abbr></a>
+                                 <a href="https://juejin.im/user/5b0158d66fb9a07ab458e82b/collections" target="_blank"  rel="nofollow"><abbr title="掘金社区，技术文章阅读"><img height="30px" data-v-5ce25e66="" src="https://b-gold-cdn.xitu.io/v3/static/img/logo.a7995ad.svg" alt="掘金" class="logo-img"></abbr></a>
+							</li>
+							
+							<li>
+								<a href="https://www.w3cschool.cn/popularuser" target="_blank"  rel="nofollow"><abbr title="个人W3Cschool地址，freeCodeCamp项目挑战，经验值榜第二"><img height="32px" src="images/logow3.png" alt="W3Cschool"></abbr></a>
+								<a href="https://www.processon.com/diagrams" target="_blank"  rel="nofollow"><abbr title="脑图流程图"><img height="30px" data-v-5ce25e66="" src="https://www.processon.com/assets/imgs/logo_small.png" alt="ProcessOn" class="logo-img"></abbr></a>
+							</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					响应式菜单
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">个人简介</a></li>
+						<li><a href="#work" class="scroll">通用素质</a></li>
+						<li><a href="#education" class="scroll">专业素质</a></li>
+						<li><a href="#skills" class="scroll">新趋势·新未来</a></li>
+						<li><a href="#projects" class="scroll">项目·风采</a></li>
+						<li><a href="javascript:window.print()">文档打印</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--//top-nav-->
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> 个人简介</h3>
+			<div class="col-md-8 about-left">
+<!-- “为什么”从这里开始 -->
+<!-- “为什么”从这里开始 -->
+				
+<div class="a-container"><!-- accordion container
+ -->
+	<div class="accordion">
+		<dl>
+			<dt>
+				<a href="#accordion7" aria-expanded="false" aria-controls="accordion7" class="accordion-title accordionTitle js-accordionTrigger">写在前面的话</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion7" aria-hidden="true">
+				<p>记得在上一份求职简历里，我曾写过这样一句话：</p>
+				<p>在大西洋的彼岸，曾有人写了这样一本书:《一万小时天才理论》（丹尼尔·科伊尔）；<br>在书中，提到了这样一个原则:世界级技能 = 精深练习 * 一万小时；<br>一个在<b>web前端领域</b>经历了一千小时努力，仍饱含激情的人，正在寻求一位伯乐。</p>
+				<p>我希望您，就是。</p>
+				<p>今天，有机会坐在这里，其实我即心怀感恩，也满怀愧疚。</p>
+			</dd>
+			<dt>
+				<a href="#accordion6" aria-expanded="false" aria-controls="accordion6" class="accordion-title accordionTitle js-accordionTrigger">半路出家</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion6" aria-hidden="true">
+				<p>本人2016年本科毕业于211高校南京航空航天大学，所读专业为信息与计算科学，主修计算机与数学，后就职于国有军工企业贵州贵航飞机设计研究所，从事飞机研发设计相关工作。</p>
+				<p>初衷：脱离国企一眼看到底的生活，一个浏览器，一个代码编辑器创造一个世界！</p>
+			</dd>
+			<dt>
+				<a href="#accordion8" aria-expanded="false" aria-controls="accordion8" class="accordion-title accordionTitle js-accordionTrigger">没有传说</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion8" aria-hidden="true">
+				<p>传说1：此子已“借”军机上天，如今只想追随爱好，迎合激情；</p>
+				<p>传说2：此人“不学无术”，长期于GitHub、掘金社区、SegmentFault、慕课、网易云、腾讯课堂等处“游荡”；</p>
+				<p>传说3：W3Cschool经验榜第二；独立完成FreeCodeCamp95%挑战项目；凭借独门兵刃“编码降魔键”驰骋江湖，战顽魔、辅同事，行侠仗义，排忧解难，留名十里，乐在其中；</p>
+				<p>传说4：较强的逻辑思维能力，纵横贵飞棋坛，罕逢敌手，象棋折桂，五子棋位列三甲;兴趣多广，篮球、羽毛球、乒乓球尚佳，魔术也爱；乐于尝试和冒险，曾在车技不熟时完成环游南京高校的骑行；</p>
+				<p>传说5：较强的学习能力和探索意识，曾5天获得会计从业资格证；一个月获得证券从业资格证。</p>
+				<p>代码的世界，没有传说：<a href="https://aiyongbao.yuque.com/office/yuque/36/2018/doc/155707/1540882442327-1c734fdc-551f-4d9a-a30b-76c2d1f99ad4.doc" target="_blank">《项目总结——中秋活动》</a></p>
+			</dd>
+			<dt>
+				<a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">为什么要从国有军工企业离职？</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+				<p>确实，国有军工企业的名头不小，那么，为什么要从国有军工企业离职？ </p>
+				<p>很多地方说，换工作，无外乎两点：一、对工资、收入不满意；二、发展空间、工作压力、未来预期的变化。而对于我来说，就职于国有军工企业，收入虽非很高，到手却也不低，工作压力不大，领导也经常委以重任，有国家背景的军工企业，自然也有属于它的前景。</p>
+				<p>我为什么要离职？</p><p>第一，想做专业内的、技术领域的事；<br/>
+				第二，私企有私企的高薪与压力；国企有国企的稳定与慵懒；年轻该有激情、有梦想；<br/>
+				第三，热爱，对互联网+的热爱。</p>
+			</dd>
+			<dt>
+				<a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
+			为什么是上海？</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+				<p>是的，为什么是上海？如果是一年、或者两年前刚从学校毕业那会儿，我可能会说：我有个姐姐在上海，我有同学在上海，或者，我的XX朋友在上海，诸如此类，似乎总要有些依赖、有所依靠、有个心理的慰藉才敢做出决定，正如大学毕业我选择来现在的单位一样。但是，既然敢做出离开国有军工企业的决定，我想，对大多数人来说，从心理层面上，应该是早已抛开了所有的依赖。</p>
+				<p>有着魔都之称的上海，她是一个充满梦想与希望的城市；同时，或许她也是一个让太多人绝望的城市。有人在此大展宏图，实现抱负，也有人在此一败涂地，铩羽而归。既然选择进入这个城市，你就得接纳她的一切。</p><p>如今，你问我为什么来上海？我的答案只有两个字：梦想！</p>
+			</dd>
+
+<!--  -->
+			<dt>
+				<a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">对于工作、公司的期望？</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+				<p>我想要一个怎样的工作？ <br>
+					1.我希望公司文化是积极向上的，是有活力、有激情的；<br>
+					2.相较于薪酬，更希望能够有机会与技术大牛共事；<br>
+					3.公司是有明确的、令人激情澎湃的发展规划与愿景的。</p>
+			</dd>
+
+<!--  -->
+
+			<dt>
+				<a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">
+			我的优势与不足？
+			</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion4" aria-hidden="true">
+				<p>选择从国企辞职，首先需要对自己有一个清晰的认识，那么，我的优势与不足有分别有哪些？ </p>
+				<p>一、优势<br>
+					1.怀揣梦想，对未来的工作充满激情与期待；<br>
+					2.211院校本科毕业，计算机相关专业，知识面广；<br>
+					3.勤奋好学，乐于、擅于接受新知识、新事物；<br>
+					4.国企的阅历、见识；<br>
+					5.农村长大，吃苦耐劳。</p>
+					<p>
+					二、不足<br>
+					1.前端领域企业经验较少，但有过移动APP 开发（HBuilder 云端打包）、冲突敏感性分析系统（web+MATLAB GUI）、政府代建单位绩效考评系统、基于web 的XX 飞机交互式电子技术手册等的开发、设计经验；<br>
+					2.知识庞杂，前端知识体系不够系统，但知识面广，勤奋乐学。
+					</p>
+			</dd>
+			<dt>
+				<a href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="accordion-title accordionTitle js-accordionTrigger">为什么是我？</a>
+			</dt>
+			<dd class="accordion-content accordionItem is-collapsed" id="accordion5" aria-hidden="true">
+				<p>您要找的人，为什么是我？ <br>
+					1.懂算法、懂数据、懂业务，懂实现；<br>
+					2.大学课程计算机和数学；懂C/C++、算法与数据结构、软件工程、计算机网络、操作系统、思维逻辑，又热衷于HTML/JS/CSS/XML/AJAX/jQuery/Bootstrap/Vue等的前端er；<br>
+					3.懂概率论与数理统计、懂SQL、精通Excel的数据分析师；<br>
+					4.脚踏实地，谦虚谨慎，对工作一丝不苟的老实人；<br>
+					5.爱好广泛、亲近生活，实在而不失风趣的活力派。</p>
+			</dd>
+		</dl>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="./js/accordion.js"></script>	
+
+				</div>
+<!-- “为什么”结束 -->
+<!-- “为什么”结束 -->
+
+			
+			<div class="col-md-4 about-right">
+				<ul>
+					<h5>荣誉·证书</h5>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 校“优秀学生”奖学金获得者</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 全国计算机二级C语言-优秀</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 英语CET-4;普通话等级证书</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 《南航青年报》副主编</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 证券从业资格证;会计从业资格证</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 飞机设计员；助理工程师 </li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 中国航空工业集团·航空装备技术资料整改实施方案&nbsp;&nbsp;专家组成员(贵飞公司代表) </li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 贵飞公司象棋大赛-冠军<br/>&nbsp;&nbsp;&nbsp;&nbsp;贵飞公司五子棋大赛-三等奖<br/>&nbsp;&nbsp;&nbsp;&nbsp;贵航所篮球赛-亚军 </li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//about-->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<h3 class="title">通用素质</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>学习能力 </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<!-- <h5><span class="glyphicon glyphicon-briefcase"> </span> 贵州贵航飞机设计研究所·飞机设计员</h5> -->
+					<p><span style="font-size: 20px">从自然底数e说起：</span>
+						<hr>
+						<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2366781329,4058072232&fm=173&s=00A07C321529610954F038C7000050B2&w=440&h=244&img.JPEG" />
+						<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2717984261,1534537374&fm=173&s=25B06432D53141881CF02CC70200C0B2&w=440&h=244&img.JPEG" />
+					</p><br>
+					<p><span style="font-size: 20px">我的学习：</span>
+						<hr>
+						<!-- <img src="images/thumbnail/xuexi.png" />
+						<hr> -->
+					<ol>
+						<li><a href="https://aiyongbao.yuque.com/allhands/tech/bnl9wg" target="_blank">前端技术入职十二周计划</a></li>
+					    <li>
+					    	<a href="https://cdn.nlark.com/yuque/36/2018/pdf/155707/1540882284638-d542113c-0388-412f-9d94-150cce1cb0b3.pdf?OSSAccessKeyId=LTAI1M4etAl6H5AN&Expires=1543141842&Signature=Ca1SYQOXH5Q8sa8K8CNW7mimyog%3D" target="_blank">爱·学习</a>
+					    </li>
+					    <li>
+					    	<a href="https://aiyongbao.yuque.com/r_and_d/ncwsn1/edb67p" target="_blank">项目总结及流程图</a>
+					    </li>
+					    <li><a href="https://www.processon.com/diagrams" target="_blank">ProcessOn</a></li>
+					     </li>
+					    <li><a href="#" target="_blank">其他途径：语雀、掘金、思否、w3c</a></li>
+					</ol>
+					 </p><br>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>执行能力 </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<!-- <h5> 暑期兼职·业余 <span class="glyphicon glyphicon-briefcase"> </span></h5> -->
+					<p><span style="font-size: 20px">能够尽心竭力完成本职工作</span></p>
+					<hr>
+					<p><a href="https://www.processon.com/diagraming/5b87bea7e4b015327ac8af4c" target="_blank">CRM促销水印</a></p><hr>
+					<p><a href="https://www.processon.com/diagraming/5bcd9403e4b0d4d65c39b421" target="_blank">qap促销水印活动</a></p><hr>
+					<p><a href="https://www.processon.com/diagraming/5be18323e4b00a9dff8a2b62" target="_blank">pc端ump</a></p><hr>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left work-left2"> 
+					<h4>沟通能力&&项目管理能力 </h4>
+				</div>
+				<div class="col-md-6 work-right work-right2"> 
+					<!-- <h5> 暑期兼职·业余 <span class="glyphicon glyphicon-briefcase"> </span></h5> -->
+					<p>遇到自己无法解决的问题，主动向大佬请教</p>
+					<hr>
+					<p>pc端ump开发过程中，即时与魏新波进行问题的沟通讨论</p><hr>
+					<p>项目中遇到问题，即时与leader、产品进行沟通</p><hr>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//work-experience-->
+	<!--education-->
+	<div id="education" class="education">
+		<div class="container">
+			<h3 class="title">专业能力</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>技术能力</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<!-- <h5><span class="glyphicon glyphicon-education"> </span> 南京航空航天大学</h5><br> -->
+					<hr>
+					<p><dl>
+						    	<dt>知识运用</dt>
+						    	<dd>◆完成爱用学习任务<span style="font-size:25px;color: red">☞</span> 前端技术入职十二周计划<br>
+						    	◇完成练手项目前端开发<span style="font-size:25px;color: cyan">☞</span><a href="https://aiyongbao.yuque.com/office/yuque/36/2018/docx/155707/1540882423290-99a5330a-3fd0-4c5b-82cd-2efee9d3de2a.docx" target="=_blank">crm促销水印管理</a><br>
+						    	◆能解决qap项目中的一般性bug<span style="font-size:25px;color: orange">☞</span>
+						    		<a href="https://aiyongbao.yuque.com/office/yuque/36/2018/docx/155707/1540882936821-f6282250-7bc6-4ecd-acba-f016b3d018c7.docx" target="_blank">
+						    		QAP bug解决</a><br>
+								◇能完成qap小需求<span style="font-size:25px;color: yellow">☞</span><a href="https://aiyongbao.yuque.com/office/yuque/36/2018/docx/155707/1540975985724-7cdd036d-b753-49a3-87e7-d9103f1c1a6b.docx" target="_blank">
+						    		QAP 项目总结</a><br>
+								◆能完成pc端小型项目<span style="font-size:25px;color: blue">☞</span><a href="https://aiyongbao.yuque.com/office/yuque/36/2018/doc/155707/1540882442327-1c734fdc-551f-4d9a-a30b-76c2d1f99ad4.doc" target="_blank">
+						    		项目总结-中秋活动</a><br>
+								◇能在指导下，进行pc端新需求的开发<span style="font-size:25px;color: green">☞</span><a href="#projects">UMP 促销打折</a>
+						    </dd>
+						</dl> 
+					</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>其他能力</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<!-- <h5> web前端修炼 <span class="glyphicon glyphicon-education"></span></h5> -->
+					<hr>
+					<p><ol>
+					    <li align="left"><b>熟悉http协议</li>
+					    <li align="left"><b>能解决开发过程中遇到的大多数问题</li>
+					</ol></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--skills-->
+	<div id="skills" class="skills">
+		<div class="container">
+			<h3 class="title">新趋势·新未来</h3>
+			<div class="skills-info">
+				<div class="col-md-6 bar-grids">
+					<h6>LAVAS（百度）：基于 Vue.js 的 PWA 解决方案，帮助开发者快速搭建 PWA 应用，解决接入 PWA 的各种问题</h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 100%">
+						</div>
+					</div>
+					<h6>Remote Work 必定是未来工作模式的一大趋势，类似于 BaseCamp，Gitlab 这样的积极例子大有所在。（理想，我就不用远来上海啦；机遇与挑战并存，大侠吃肉，小虾无汤（代码更好，还快）。）</h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 100%">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 bar-grids">
+					<h6>React v16.7 "Hooks" - What to Expect （新特性）</h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 100%">
+						</div>
+					</div>
+					<h6>方向：react、vue这些（金融工具）；webGL、three（虚拟现实，家装，游戏）、H5在线游戏；</h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 100%">
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--portfolio-->
+	<div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">项目·风采</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>一览无余</span></li>
+						<li class="resp-tab-item"><span>亦猿亦码</span></li>
+						<li class="resp-tab-item"><span>兴趣爱好</span></li>
+						<li class="resp-tab-item"><span>天下风光 </span></li>
+											
+					</ul>	
+					<div class="clearfix"> </div>
+					<!-- 我全都要，开始 -->	
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g1.jpg" class="swipebox" title="Nothing is given, Everything is earned！">
+											<img src="images/thumbnail/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 篮球</span></h3>
+												<p>Nothing is given, Everything is earned！</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid effect-sarah">
+										<a href="images/g2.jpg" class="swipebox" title="北京·天安门">
+											<img src="images/thumbnail/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>在路上<span> 天安门</span></h3>
+												<p>北京·天安门</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g3.jpg" class="swipebox" title="Some of life,you have to go to the great challenges。">
+											<img src="images/thumbnail/g3.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 篮球</span></h3>
+												<p>Some of life,you have to go to the great challenges。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g4.jpg" class="swipebox" title="百里杜鹃">
+											<img src="images/thumbnail/g4.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>在路上<span> 杜鹃</span></h3>
+												<p>百里杜鹃</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/king-hcj/itempcr/blob/NF-ItemManager/src/pages/item/containers/itemPromotionalActivity/components/promotionalPage/createActivity/index.js" target="_blank">
+											<img src="images/thumbnail/g5.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>CODE<span> SHOWS</span></h3>
+												<p>关公面前耍大刀...</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://king-hcj.github.io/government/" target="_blank">
+											<img src="images/thumbnail/g6.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>项目<span> 政府代建单位绩效考评系统</span></h3>
+												<p>系统结合政府投资项目代建制特点及项目管理特点,遵循指标设置的基本原则构建的系统体系,引入层次分析法(AHP)、模糊综合评价法(FUZZY)以及数据包络法(DEA)相结合的AFD综合评价模型。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://king-hcj.github.io/loveLetter/" target="_blank">
+											<img src="images/thumbnail/g7.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>项目<span> LoveLetter</span></h3>
+												<p>LoveLetter——时光清浅，许我╭❤～你。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g8.jpg" class="swipebox" title="空中看中国">
+											<img src="images/thumbnail/g8.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>在路上<span> 空中</span></h3>
+												<p>空中看中国</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g9.jpg" class="swipebox" title="羽毛球如人生。羽球有输有赢，人生有高有低，而我们所追求的，是健康与快乐。">
+											<img src="images/thumbnail/g9.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 羽毛球</span></h3>
+												<p>羽毛球如人生。羽球有输有赢，人生有高有低，而我们所追求的，是健康与快乐。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<!-- 追加 -->
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g10.jpg" class="swipebox" title="生能有几回搏，此时不搏何时博。——容国团<br>
+												努力了不一定会成功，但不努力一定会失败。——孔令辉">
+											<img src="images/thumbnail/g10.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 乒乓球</span></h3>
+												<p>生能有几回搏，此时不搏何时博。——容国团<br>
+												努力了不一定会成功，但不努力一定会失败。——孔令辉</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g11.jpg" class="swipebox" title="河界三分阔，智谋万丈深。<br>
+												没有了仕相，再帅也不过是个逃犯。">
+											<img src="images/thumbnail/g11.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 象棋五子棋</span></h3>
+												<p>河界三分阔，智谋万丈深。<br>
+												没有了仕相，再帅也不过是个逃犯。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g12.jpg" class="swipebox" title="每一个还没去过西藏的人，都深信有一天会踏上那片土地；每一个离开的人，都深信自己还会回去。">
+											<img src="images/thumbnail/g12.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 骑行</span></h3>
+												<p>每一个还没去过西藏的人，都深信有一天会踏上那片土地；每一个离开的人，都深信自己还会回去。 </p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!-- //我全都要，结束 -->
+
+						<!-- 这是一个假的筛选，代码和上面一样，看起来像是通过按钮、jQuery等实现==================================== -->
+
+						<!-- 亦猿亦码，开始 -->
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/king-hcj/itempcr/blob/NF-ItemManager/src/pages/item/containers/itemPromotionalActivity/components/promotionalPage/createActivity/index.js" target="_blank">
+											<img src="images/thumbnail/g5.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>CODE<span> SHOWS</span></h3>
+												<p>关公面前耍大刀...</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/thumbnail/g6.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> 项目6</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g7.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/thumbnail/g7.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> 项目7</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!-- //亦猿亦码，结束 -->
+						<!-- 兴趣爱好，开始 -->
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g3.jpg" class="swipebox" title="Some of life,you have to go to the great challenges。">
+											<img src="images/thumbnail/g3.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 篮球</span></h3>
+												<p>Some of life,you have to go to the great challenges。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g1.jpg" class="swipebox" title="Nothing is given, Everything is earned！">
+											<img src="images/thumbnail/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 篮球</span></h3>
+												<p>Nothing is given, Everything is earned！</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g9.jpg" class="swipebox" title="羽毛球如人生。羽球有输有赢，人生有高有低，而我们所追求的，是健康与快乐。">
+											<img src="images/thumbnail/g9.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 羽毛球</span></h3>
+												<p>羽毛球如人生。羽球有输有赢，人生有高有低，而我们所追求的，是健康与快乐。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g10.jpg" class="swipebox" title="生能有几回搏，此时不搏何时博。——容国团<br>
+												努力了不一定会成功，但不努力一定会失败。——孔令辉">
+											<img src="images/thumbnail/g10.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 乒乓球</span></h3>
+												<p>生能有几回搏，此时不搏何时博。——容国团<br>
+												努力了不一定会成功，但不努力一定会失败。——孔令辉</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g11.jpg" class="swipebox" title="河界三分阔，智谋万丈深。<br>
+												没有了仕相，再帅也不过是个逃犯。">
+											<img src="images/thumbnail/g11.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 象棋五子棋</span></h3>
+												<p>河界三分阔，智谋万丈深。<br>
+												没有了仕相，再帅也不过是个逃犯。</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g12.jpg" class="swipebox" title="每一个还没去过西藏的人，都深信有一天会踏上那片土地；每一个离开的人，都深信自己还会回去。">
+											<img src="images/thumbnail/g12.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>最爱<span> 骑行</span></h3>
+												<p>每一个还没去过西藏的人，都深信有一天会踏上那片土地；每一个离开的人，都深信自己还会回去。 </p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!-- //兴趣爱好，结束 -->
+					<!-- 天下风光，我的照片位置 开始-->
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g2.jpg" class="swipebox" title="北京·天安门">
+											<img src="images/thumbnail/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>在路上<span> 天安门</span></h3>
+												<p>北京·天安门</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g4.jpg" class="swipebox" title="百里杜鹃">
+											<img src="images/thumbnail/g4.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>在路上<span> 杜鹃</span></h3>
+												<p>百里杜鹃</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g8.jpg" class="swipebox" title="空中看中国">
+											<img src="images/thumbnail/g8.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>在路上<span> 空中</span></h3>
+												<p>空中看中国</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!-- //天下风光，我的照片位置 结束-->
+					</div>
+				</div>
+			</div>
+			<!--ResponsiveTabs-->
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+			<!-- //swipe box js -->
+		</div>
+	</div>
+	<!--//portfolio-->
+
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>Copyright &copy; 2018.</p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
